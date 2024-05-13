@@ -55,7 +55,7 @@ function Footer() {
                   <a href="/aboutUs">about us</a>
                 </li>
                 <li className="pb-2 capitalize hover:text-main hover:cursor-pointer">
-                  <a href="/contactUs">contact us</a>
+                  <a href="/contact">contact us</a>
                 </li>
               </ul>
             </div>
