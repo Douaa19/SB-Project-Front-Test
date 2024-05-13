@@ -19,7 +19,7 @@ function AppRoutes() {
       <Router>
         <Routes>
           <Route
-            path="https://sabaembroidery.onrender.com/"
+            path="/"
             element={<Home />}
           />
           <Route
