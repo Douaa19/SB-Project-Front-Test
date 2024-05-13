@@ -18,7 +18,7 @@ function AppRoutes() {
     <>
       <Router>
         <Routes>
-          <Route path="https://sabaembroidery.onrender.com/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route
             path="/best-selling"
             element={<Products title="best selling" categories />}
