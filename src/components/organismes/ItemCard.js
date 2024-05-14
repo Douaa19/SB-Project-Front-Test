@@ -1,4 +1,5 @@
 import React from "react";
+import { BACK_URL } from "../../config";
 
 function ItemCard({ description, price, id, color, url, transition }) {
   const openProduct = (item_id) => {
@@ -13,7 +14,7 @@ function ItemCard({ description, price, id, color, url, transition }) {
       onClick={() => openProduct(id)}>
       <div className="flex justify-center items-center">
         <img
-          src={`http://localhost:8008/api/items/${id}/image`}
+          src={`${BACK_URL}/items/${id}/image`}
           alt=""
           className="w-full h-[300px] item-img"
         />
