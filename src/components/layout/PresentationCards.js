@@ -9,17 +9,17 @@ function PresentationCards() {
     {
       icon: Icon,
       title: "Production process",
-      desc: "Each piece is meticulously handcrafted by skilled artisans, from the design to the final stitches.",
+      desc: "Our embroidered products undergo meticulous craftsmanship from start to finish. Our skilled artisans select high-quality fabrics and threads, employing traditional and modern techniques to create exquisite pieces. From initial design to final stitching, attention to detail is paramount. Explore the artistry behind our creations and the passion we infuse into every stitch",
     },
     {
       icon: Icon,
       title: "Ico Friendly",
-      desc: "Each piece is meticulously handcrafted by skilled artisans, from the design to the final stitches.",
+      desc: "Sustainability is central to our values. We prioritize eco-friendly practices, from using organic fabrics to minimizing waste in our production process. By choosing our embroidered products, you're not only supporting local artisans but also contributing to a greener future.",
     },
     {
       icon: Embroidery,
       title: "Care instructions",
-      desc: "Hand wash in cold water and lay flat to dry for long-lasting beauty. Avoid harsh detergents or tumble drying.",
+      desc: "Hand wash gently in cold water with mild detergent, avoiding harsh rubbing. Air dry flat on a clean towel, away from direct sunlight. Iron on low heat on the reverse side, if necessary. Store in a cool, dry place to prevent fading or damage.",
     },
   ];
   return (

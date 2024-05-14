@@ -25,9 +25,10 @@ function Contact() {
             title="contact us"
           />
           <p className="text-dark md:text-16 w-full ssm:text-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
-            amet facilisis ipsum. Nunc rutrum feugiat tortor, quisvestibulum
-            urna hendrerit ac. Pellentesque ut ultricies velit.
+            We'd love to hear from you! Whether you have a question, suggestion,
+            or just want to say hello, feel free to reach out using the form
+            below. Your feedback is valuable to us and we'll do our best to get
+            back to you as soon as possible.
           </p>
           <Form
             className="flex flex-col items-between w-full gap-6"
