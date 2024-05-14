@@ -82,8 +82,8 @@ function Form(props) {
     if (props.type === "contact") {
       if (!data.message) {
         errors.message = "Message is required";
-      } else if (data.message.length < 10 || data.message.length > 100) {
-        errors.message = "Message must be between 10 and 50 characters";
+      } else if (data.message.length < 10 || data.message.length > 200) {
+        errors.message = "Message must be between 10 and 200 characters";
       }
     }
 
