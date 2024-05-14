@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { Button, Input } from "../atoms";
 import { setOrders } from "../../redux/actions/orders";
 import { useDispatch, useSelector } from "react-redux";
+import { BACK_URL } from "../../config";
 
 function BigItemCard({ url, item }) {
   const dispatch = useDispatch();
@@ -63,9 +64,7 @@ function BigItemCard({ url, item }) {
   useEffect(() => {
     const fetchItemImages = async () => {
       try {
-        const response = await fetch(
-          `http://localhost:8008/api/items/${item._id}/images`
-        );
+        const response = await fetch(`${BACK_URL}/items/${item._id}/images`);
         const data = await response.json();
 
         setImages(data.images);
