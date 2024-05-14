@@ -9,17 +9,17 @@ function PresentationCards() {
     {
       icon: Icon,
       title: "Production process",
-      desc: "Our embroidered products undergo meticulous craftsmanship from start to finish. Our skilled artisans select high-quality fabrics and threads, employing traditional and modern techniques to create exquisite pieces. From initial design to final stitching, attention to detail is paramount. Explore the artistry behind our creations and the passion we infuse into every stitch",
+      desc: "Skilled artisans meticulously craft each piece from start to finish, using high-quality fabrics and threads. Attention to detail is our priority, ensuring exquisite designs with every stitch.",
     },
     {
       icon: Icon,
       title: "Ico Friendly",
-      desc: "Sustainability is central to our values. We prioritize eco-friendly practices, from using organic fabrics to minimizing waste in our production process. By choosing our embroidered products, you're not only supporting local artisans but also contributing to a greener future.",
+      desc: "Saba Embroidery is committed to sustainability. We use organic materials and eco-friendly practices, supporting a greener future with every embroidered creation.",
     },
     {
       icon: Embroidery,
       title: "Care instructions",
-      desc: "Hand wash gently in cold water with mild detergent, avoiding harsh rubbing. Air dry flat on a clean towel, away from direct sunlight. Iron on low heat on the reverse side, if necessary. Store in a cool, dry place to prevent fading or damage.",
+      desc: "To preserve the beauty of your embroidered treasures, hand wash gently in cold water, air dry flat, and store away from direct sunlight.",
     },
   ];
   return (
