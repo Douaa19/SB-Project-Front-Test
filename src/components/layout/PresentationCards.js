@@ -19,7 +19,7 @@ function PresentationCards() {
     {
       icon: Embroidery,
       title: "Care instructions",
-      desc: "To preserve the beauty of your embroidered treasures, hand wash gently in cold water, air dry flat, and store away from direct sunlight.",
+      desc: "To preserve the beauty of your embroidered treasures from Saba Embroidery, hand wash gently in cold water, air dry flat, and store away from direct sunlight.",
     },
   ];
   return (
