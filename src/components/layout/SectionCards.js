@@ -8,11 +8,11 @@ import LoadingCard from "../organismes/LoadingCard";
 function SectionCards({ items, title, buttonText, page, limit, transition }) {
   const myArr = [0, 1, 2, 3, 4, 5];
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    autoplay: true,
-    slidesToShow: 4,
+    autoplay: false,
+    slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: <Next />,
     prevArrow: <Prev />,

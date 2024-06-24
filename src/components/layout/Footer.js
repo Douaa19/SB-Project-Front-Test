@@ -52,7 +52,7 @@ function Footer() {
               </h6>
               <ul className="md:text-14 ssm:text-12">
                 <li className="pb-2 capitalize hover:text-main hover:cursor-pointer">
-                  <a href="/aboutUs">about us</a>
+                  <a href="/about">about us</a>
                 </li>
                 <li className="pb-2 capitalize hover:text-main hover:cursor-pointer">
                   <a href="/contact">contact us</a>
