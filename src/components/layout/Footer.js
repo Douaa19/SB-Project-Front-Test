@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/icons/Logo_White.png";
+import Logo from "../../assets/images/big-logo-sabaembroidery.svg";
 import FacebookIcon from "../../assets/icons/face-icon-png.png";
 import InstagramIcon from "../../assets/icons/instagram-icone.png";
 import PinterestIcon from "../../assets/icons/pinterest-icon-svg.png";
@@ -10,9 +10,9 @@ function Footer() {
   return (
     <div className="mt-10 bg-blue lg:py-8 ssm:py-6 lg:px-28 ssm:px-16 h-max text-white">
       <div className="flex justify-between flex-col items-start">
-        <div className="w-full mb-4 flex items-center lg:justify-start ssm:justify-center">
+        <div className="w-full mb-4 mx-0 flex items-center lg:justify-center ssm:justify-center">
           <a href="/">
-            <img src={Logo} alt="logo" className="w-20" />
+            <img src={Logo} alt="logo" className="md:w-48 ssm:w-32" />
           </a>
         </div>
         <div className="flex lg:justify-between lg:flex-row w-full pt-4 mb-6 gap-2 ssm:flex-col-reverse">
@@ -32,7 +32,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="flex lg:justify-between items-center gap-2 lg:w-1/2 md:w-full ssm:justify-between">
+          <div className="flex lg:justify-around items-center gap-2 lg:w-1/2 md:w-full ssm:justify-between">
             <div className="">
               <h6 className="md:text-18 ssm:text-14 capitalize pb-4 font-bold">
                 main menu

@@ -43,13 +43,13 @@ function HearoHeader() {
       <div
         className="hover:opacity-75 sm:w-2 sm:h-2 ssm:w-1 ssm:h-1"
         style={{
-          border: "1px #DAB88A solid",
+          border: "1px #192655 solid",
           borderRadius: "8px",
           position: "relative",
           top: "0",
           left: "0",
           margin: "0",
-          backgroundColor: "#DAB88A",
+          backgroundColor: "#192655",
         }}></div>
     ),
   };

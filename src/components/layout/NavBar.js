@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ReactComponent as Basket } from "../../assets/icons/basket-svgrepo-com.svg";
 import Search from "../../assets/icons/search-svgrepo-com.svg";
-import Logo from "../../assets/icons/Logo_White.png";
+import Logo from "../../assets/images/small-logo-sabaembroidery.svg";
 import Input from "../atoms/Input";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchResults } from "../../redux/actions/items";

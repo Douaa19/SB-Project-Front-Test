@@ -28,7 +28,7 @@ body {
   position: relative;
 }
 .list:hover {
-  color: #dab88a;
+  color: #192655;
   background: transparent;
   box-shadow: none;
 }
@@ -40,7 +40,7 @@ body {
   right: 0;
   height: 2px;
   width: 0;
-  background: #dab88a;
+  background: #192655;
   transition: 400ms ease all;
 }
 .list:after {
@@ -87,7 +87,7 @@ body {
 }
 
 .dropdown-select-inner__control {
-  border-color: #dab88a !important;
+  border-color: #192655 !important;
   width: 100%;
 }
 

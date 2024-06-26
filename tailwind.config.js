@@ -35,7 +35,7 @@ module.exports = {
         48: "48px",
       },
       textColor: {
-        main: "#DAB88A",
+        main: "#192655",
         white: "#FFFFFF",
         dark: "#000000",
         gray: "#CCCCCC",
@@ -52,9 +52,9 @@ module.exports = {
         5: "16px",
       },
       backgroundColor: {
-        "main-bg": "#F5F5F5",
+        "main-bg": "#192655",
         blue: "#192655",
-        "main-color": "#DAB88A",
+        "main-color": "#192655",
         dark: "#000000",
         white: "#FFFFFF",
         gray: "#F0F0F0",
@@ -75,7 +75,7 @@ module.exports = {
         2: "2px",
       },
       borderColor: {
-        main: "#DAB88A",
+        main: "#192655",
         white: "#FFFFFF",
         dark: "#000000",
         red: "#FF004D",
@@ -105,7 +105,7 @@ module.exports = {
       },
     },
     colors: {
-      main: "#DAB88A",
+      main: "#192655",
     },
   },
   plugins: [],
