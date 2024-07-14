@@ -7,7 +7,7 @@ function AboutCard({ title, text, image }) {
         {title}
       </h3>
       <p className="md:pb-5 ssm:pb-3 md:text-18 ssm:text-14">{text}</p>
-      <div className="">
+      <div className="flex items-center justify-center">
         <img src={image} alt="about-img" className="rounded-md" />
       </div>
     </div>
